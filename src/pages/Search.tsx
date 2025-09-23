@@ -18,9 +18,7 @@ const SearchPage = () => {
           <BreadcrumbItem>
             <BreadcrumbLink href="/">Home</BreadcrumbLink>
           </BreadcrumbItem>
-          <BreadcrumbItem>
-            <BreadcrumbSeparator />
-          </BreadcrumbItem>
+          <BreadcrumbSeparator />
           <BreadcrumbItem>
             <BreadcrumbPage>Search Chemicals</BreadcrumbPage>
           </BreadcrumbItem>

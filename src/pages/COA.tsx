@@ -110,9 +110,7 @@ const COA = () => {
                     <BreadcrumbItem>
                         <BreadcrumbLink href="/">Home</BreadcrumbLink>
                     </BreadcrumbItem>
-                    <BreadcrumbItem>
-                        <BreadcrumbSeparator />
-                    </BreadcrumbItem>
+                    <BreadcrumbSeparator />
                     <BreadcrumbItem>
                         <BreadcrumbPage>Certificates of Analysis</BreadcrumbPage>
                     </BreadcrumbItem>
