@@ -59,15 +59,11 @@ const ChemicalDetails = () => {
                     <BreadcrumbItem>
                         <BreadcrumbLink href="/">Home</BreadcrumbLink>
                     </BreadcrumbItem>
-                    <BreadcrumbItem>
-                        <BreadcrumbSeparator />
-                    </BreadcrumbItem>
+                    <BreadcrumbSeparator />
                     <BreadcrumbItem>
                         <BreadcrumbLink href="/chemicals">Chemicals</BreadcrumbLink>
                     </BreadcrumbItem>
-                    <BreadcrumbItem>
-                        <BreadcrumbSeparator />
-                    </BreadcrumbItem>
+                    <BreadcrumbSeparator />
                     <BreadcrumbItem>
                         <BreadcrumbPage>{chemical.ChemicalName}</BreadcrumbPage>
                     </BreadcrumbItem>

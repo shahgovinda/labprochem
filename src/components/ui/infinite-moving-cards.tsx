@@ -94,7 +94,7 @@ export const InfiniteMovingCards = ({
           >
             <img src={item.image} alt={item.title} className="w-full  h-68 object-cover " />
             <p className="group-hover:opacity-100 w-full flex items-center justify-between  px-2 rounded-xl  absolute opacity-0 bottom-2 left- font-extrabold text-center text-white">
-              <p>{item.title}</p> 
+              {item.title}
             </p>
           </li>
 

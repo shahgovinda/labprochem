@@ -65,15 +65,11 @@ const Certifications = () => {
                     <BreadcrumbItem>
                         <BreadcrumbLink href="/">Home</BreadcrumbLink>
                     </BreadcrumbItem>
-                    <BreadcrumbItem>
-                        <BreadcrumbSeparator />
-                    </BreadcrumbItem>
+                    <BreadcrumbSeparator />
                     <BreadcrumbItem>
                         <BreadcrumbLink href="/profile">About</BreadcrumbLink>
                     </BreadcrumbItem>
-                    <BreadcrumbItem>
-                        <BreadcrumbSeparator />
-                    </BreadcrumbItem>
+                    <BreadcrumbSeparator />
                     <BreadcrumbItem>
                         <BreadcrumbPage>Our Certifications</BreadcrumbPage>
                     </BreadcrumbItem>

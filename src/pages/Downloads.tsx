@@ -23,9 +23,7 @@ const Downloads = () => {
                     <BreadcrumbItem>
                         <BreadcrumbLink href="/">Home</BreadcrumbLink>
                     </BreadcrumbItem>
-                    <BreadcrumbItem>
-                        <BreadcrumbSeparator />
-                    </BreadcrumbItem>
+                    <BreadcrumbSeparator />
                     <BreadcrumbItem>
                         <BreadcrumbPage>Downloads</BreadcrumbPage>
                     </BreadcrumbItem>

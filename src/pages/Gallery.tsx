@@ -48,9 +48,7 @@ export const Gallery = () => {
           <BreadcrumbItem>
             <BreadcrumbLink href="/">Home</BreadcrumbLink>
           </BreadcrumbItem>
-          <BreadcrumbItem>
-            <BreadcrumbSeparator />
-          </BreadcrumbItem>
+          <BreadcrumbSeparator />
           <BreadcrumbItem>
             <BreadcrumbPage>Gallery</BreadcrumbPage>
           </BreadcrumbItem>
@@ -79,7 +77,7 @@ export const Gallery = () => {
                   className='w-full h-[84%] object-cover'
                 />
                 <p className='text-center h-[16%] flex justify-center items-center bg-primary text-white font-black'>
-                  {item.name}
+                  {item.name.replace(/\.[^/.]+$/, '')}
                 </p>
               </motion.div>
             ))}
@@ -116,7 +114,7 @@ export const Gallery = () => {
                           className="max-h-[80vh] w-auto rounded-xl border-4 border-white shadow-lg"
                         />
                         <p className="mt-4 text-center text-white font-bold text-lg">
-                          {item.name}
+                          {item.name.replace(/\.[^/.]+$/, '')}
                         </p>
                       </div>
                     </CarouselItem>
